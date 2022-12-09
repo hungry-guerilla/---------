@@ -25,6 +25,7 @@ body {
     align-items: center;
     align-content: center;
     padding: 12px 260px ;
+    margin-bottom: 30px;
     box-shadow: 0px 6px 13px -10px rgba(34, 60, 80, 0.2);
     .header__logo {
         padding-top: 11px;
@@ -72,4 +73,125 @@ body {
     border: none;
     background-color: #fff;
     color: black;
+}
+
+// ------FIRST-Screen-------
+.first__screen {
+    position: relative;
+    width: inherit;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 30px;
+    padding-bottom: 108px;
+    .first__screen-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 124px;
+        padding-left: 98px;
+        .first__screen__title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 43px;
+            color: #0D1C41;
+            span {
+                font-weight: 700;
+            }
+        }
+        .first__screen__descr {
+            padding-top: 24px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #939CA6;
+        }
+        button {
+            margin-top: 92px;
+            width: 20%;
+            height: 59px;
+            border: 1px solid #4A607A;
+            box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+            border-radius: 6px;
+            transition: .6s all;
+            &:hover {
+                color: #fff;
+                background-color: salmon;
+                border: 3px solid #4A607A;
+            }
+        }
+    }
+    img {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+    }
+}
+
+// --------SECOND-Screen---------
+.second__screen {
+    padding-top: 108px;
+    position: relative;
+    .second__screen-title {
+        text-align: center;
+    }
+    .second__screen-cardblock {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+        padding-right: 35px;
+        position: relative;
+        &:last-child {
+            padding-right: 0px;
+        }
+    }
+}
+.cardblock-item {
+
+    position: relative;
+    width: 165px;
+    height: 216px;
+    .main-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 165px;
+        height: 190px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+        border-radius: 20px;
+        z-index: 99;
+        img {
+            padding: 34px 48px 21px 48px;
+        }
+        p {
+            padding: 0px 17px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #0D1C41;
+        }
+    }
+    .sub-item {
+        position: absolute;
+        bottom: 90%;
+        width: 165px;
+        height: 50px;
+        background: #DDD0A4;
+        border-radius: 20px 20px 0px 0px;
+        z-index: 9;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 5px;
+    }
 }
