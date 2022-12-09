@@ -133,6 +133,7 @@ body {
 // --------SECOND-Screen---------
 .second__screen {
     padding-top: 108px;
+    padding-bottom: 119px;
     position: relative;
     .second__screen-title {
         text-align: center;
@@ -194,4 +195,62 @@ body {
         color: #FFFFFF;
         padding-top: 5px;
     }
+}
+
+// ---------THIRD__SCREEN---------
+.third__screen {
+    position: relative;
+    .third__screen-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000000;
+    }
+    .third__screen-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-bottom: 9px;
+        .third__screen-item-name-block {
+            position: relative;
+        }
+        .third__screen-item-content {
+            padding-left: -105px ;
+        }
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: #0D1C41;
+        }
+    }
+}
+
+.third__screen-item-name-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+.third__screen-item-descr-double {
+    padding-left: 80px;
+}
+.third__screen-item-title-double {
+    position: absolute;
+    top: 16%;
+    left: 38%;
+}
+.doctor-sign {
+    padding-left: 80px;
+    padding-bottom: 8px;
+}
+
+.stripe {
+    position: absolute;
+    top: 63.5%;
+    right: -3%;
+    z-index: 99;
 }
