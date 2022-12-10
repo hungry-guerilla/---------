@@ -313,6 +313,15 @@ body {
 }
 
 .four__screen-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 130px;
   position: relative;
 }
@@ -323,7 +332,7 @@ body {
 
 .four__screen-cards-item-blue-sub {
   position: absolute;
-  top: -12%;
+  top: -5%;
   width: 385px;
   height: 169px;
   background: #4A607A;
@@ -333,7 +342,7 @@ body {
   z-index: 99;
 }
 .four__screen-cards-item-blue-sub h3 {
-  padding-top: 40px;
+  padding-top: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -344,7 +353,8 @@ body {
 }
 
 .four__screen-cards-item-blue {
-  position: relative;
+  position: absolute;
+  top: 2.5%;
   padding: 43px 20px;
   width: 385px;
   height: 675px;
@@ -394,4 +404,36 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+
+.four__screen-cards-item {
+  position: relative;
+  width: 365px;
+  height: 1191px;
+}
+
+.four__screen-cards-item-sub {
+  position: absolute;
+  left: 115%;
+  top: -5%;
+  width: 365px;
+  height: 149px;
+  background: #A89060;
+  -webkit-box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+          box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.four__screen-cards-item-main {
+  position: absolute;
+  left: 115%;
+  top: 2.5%;
+  width: 365px;
+  height: 1000px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+          box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 10px;
+  z-index: 3;
 }/*# sourceMappingURL=style.css.map */
