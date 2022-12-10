@@ -306,4 +306,92 @@ body {
   top: 63.5%;
   right: -3%;
   z-index: 99;
+}
+
+.four__screen {
+  position: relative;
+}
+
+.four__screen-cards {
+  margin-top: 130px;
+  position: relative;
+}
+
+.four__screen-title {
+  text-align: center;
+}
+
+.four__screen-cards-item-blue-sub {
+  position: absolute;
+  top: -12%;
+  width: 385px;
+  height: 169px;
+  background: #4A607A;
+  -webkit-box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+          box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 10px;
+  z-index: 99;
+}
+.four__screen-cards-item-blue-sub h3 {
+  padding-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.four__screen-cards-item-blue {
+  position: relative;
+  padding: 43px 20px;
+  width: 385px;
+  height: 675px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+          box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  z-index: 999;
+}
+.four__screen-cards-item-blue li {
+  padding-bottom: 7px;
+}
+
+.four__screen-cards-item-blue-button {
+  position: absolute;
+  top: 85%;
+  padding-top: 10px;
+  background: #FFFFFF;
+  border: 1px solid #4A607A;
+  -webkit-box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+          box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 6px;
+  padding: 20px 63px;
+  gap: 24px;
+  z-index: -1;
+}
+.four__screen-cards-item-blue-button:hover {
+  background-color: salmon;
+  color: black;
+}
+.four__screen-cards-item-blue-button i {
+  margin-left: 9px;
+  font-size: 20px;
+}
+
+.drop {
+  padding-left: 20px;
+}
+.drop button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
