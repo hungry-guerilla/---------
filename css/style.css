@@ -517,4 +517,36 @@ body {
   line-height: 29px;
   text-transform: uppercase;
   color: #DC0000;
+}
+
+.five__screen {
+  padding-bottom: 131px;
+}
+
+.five__screen-title {
+  text-align: center;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57px;
+  color: #000000;
+}
+
+.accordion-item {
+  padding: 20px;
+}
+.accordion-item span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.accordion-item .accordion-body {
+  padding-left: 12.2%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
