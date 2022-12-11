@@ -586,3 +586,24 @@ body {
         }
     }
 }
+
+// -----------SEVEN__SCREEN-------------
+.seven__screen {
+    position: relative;
+    padding-top: 189px;
+    padding-bottom: 159px;
+    .seven__screen-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 50px;
+    }
+    a {
+        position: absolute;
+        left: 40%;
+    }
+}
+// ----------EIGHT__SCREEN-------------

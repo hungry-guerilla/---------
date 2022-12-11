@@ -660,4 +660,23 @@ body {
   padding-bottom: 20px;
   font-size: 15px;
   font-weight: 500;
+}
+
+.seven__screen {
+  position: relative;
+  padding-top: 189px;
+  padding-bottom: 159px;
+}
+.seven__screen .seven__screen-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 50px;
+}
+.seven__screen a {
+  position: absolute;
+  left: 40%;
 }/*# sourceMappingURL=style.css.map */
