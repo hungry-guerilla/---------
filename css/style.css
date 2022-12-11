@@ -22,6 +22,7 @@ body {
   margin: 0 auto;
 }
 .wrapper .content {
+  position: relative;
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -597,4 +598,66 @@ body {
 .six__screen-cards .six__screen-cards-item:hover {
   -webkit-box-shadow: 0px 40px 40px 0px rgba(227, 128, 128, 0.958);
           box-shadow: 0px 40px 40px 0px rgba(227, 128, 128, 0.958);
+}
+
+.soplya-bg {
+  position: relative;
+  padding-left: 60px;
+  height: 241px;
+}
+.soplya-bg .soplya-bg-img {
+  position: relative;
+  width: 1060px;
+  z-index: -99;
+}
+.soplya-bg .soplya-bg-content-uno {
+  width: 420px;
+  height: 153px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #000000;
+}
+.soplya-bg .soplya-bg-content-uno p {
+  padding-top: 30px;
+  font-weight: 500;
+}
+.soplya-bg .soplya-bg-content-uno ul {
+  padding-top: 15px;
+}
+.soplya-bg .soplya-bg-content-uno ul li {
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+.soplya-bg .soplya-bg-content-uno span {
+  color: #A89060;
+  text-decoration: underline;
+}
+.soplya-bg .soplya-bg-content-dos {
+  width: 420px;
+  height: 153px;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  color: #000000;
+}
+.soplya-bg .soplya-bg-content-dos ul {
+  padding-top: 20px;
+}
+.soplya-bg .soplya-bg-content-dos ul li {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

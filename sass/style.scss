@@ -15,6 +15,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     .content {
+        position: relative;
         max-width: 1160px;
         margin: 0 auto;
     }
@@ -481,7 +482,9 @@ body {
 }
 
 // ---------SIX__SCREEN----------
-
+// .six__screen {
+    
+// }
 .six__screen-title {
     font-style: normal;
     font-weight: 400;
@@ -518,6 +521,68 @@ body {
         &:hover {
             box-shadow: 0px 40px 40px 0px rgba(227, 128, 128, 0.958);
             
+        }
+    }
+}
+
+.soplya-bg {
+    position: relative;
+    padding-left: 60px;
+    height: 241px;
+    .soplya-bg-img {
+        position: relative;
+        width: 1060px;
+        z-index: -99;
+    }
+    .soplya-bg-content-uno{
+        width: 420px;
+        height: 153px;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        z-index: 1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+        color: #000000;
+        p {
+            padding-top: 30px;
+            font-weight: 500;
+        }
+        ul {
+            padding-top: 15px;
+            li {
+                padding-bottom: 15px;
+                font-size: 15px;
+            }
+        }
+        span {
+            color:#A89060;
+            text-decoration: underline;
+        }
+    }
+    .soplya-bg-content-dos {
+        width: 420px;
+        height: 153px;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        z-index: 1;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+        color: #000000;
+        ul {
+            padding-top: 20px;
+            li {
+                padding-bottom: 20px;
+                font-size: 15px;
+                font-weight: 500;
+            }
         }
     }
 }
