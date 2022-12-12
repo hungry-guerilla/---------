@@ -607,6 +607,35 @@ body {
     }
 }
 // ----------EIGHT__SCREEN-------------
+.eight__screen {
+    h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+
+        color: #000000;
+    }
+    p {
+        text-align: center;
+        padding-bottom: 100px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #0D1C41;
+    }
+}
+.eight__screen-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
 form {
     position: relative;
     width: 485px;
@@ -673,4 +702,8 @@ form button{
     cursor: pointer;
     display: block;
     margin: 30px auto 10px;
+}
+.eight__screen-img {
+    position: absolute;
+    left: 50%;
 }
