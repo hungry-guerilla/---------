@@ -835,6 +835,7 @@ form button {
   background: #4A607A;
 }
 .footer .footer__container {
+  padding-top: 60px;
   position: relative;
   max-width: 1160px;
   margin: 0 auto;
@@ -883,4 +884,37 @@ form button {
 .footer .footer__container .first__link-block .ul-two {
   padding-left: 40px;
   padding-bottom: 127px;
+}
+.footer .footer__container .second__footer-block {
+  position: absolute;
+  left: 50%;
+  padding-top: 44px;
+}
+.footer .footer__container .second__footer-block p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9C9C9C;
+}
+.footer .footer__container .second__footer-block .work-time {
+  padding-top: 42px;
+  padding-bottom: 70px;
+}
+.footer .footer__container .second__footer-block .second__footer-btn {
+  width: 266px;
+  height: 55px;
+  padding: 18px 70.5px;
+  background: #FFFFFF;
+  border: 1px solid #4A607A;
+  -webkit-box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0D1C41;
 }/*# sourceMappingURL=style.css.map */

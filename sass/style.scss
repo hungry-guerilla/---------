@@ -722,6 +722,7 @@ form button{
     height: 587px;
     background: #4A607A;
     .footer__container {
+        padding-top: 60px;
         position: relative;
         max-width: 1160px;
         margin: 0 auto;
@@ -763,5 +764,38 @@ form button{
 
             }
         }
+        .second__footer-block {
+            position: absolute;
+            left: 50%;
+            padding-top: 44px;
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #9C9C9C;
+            }
+            .work-time {
+                padding-top: 42px;
+                padding-bottom: 70px;
+            }
+            .second__footer-btn {
+                width: 266px;
+                height: 55px;
+                padding: 18px 70.5px;
+                background: #FFFFFF;
+                border: 1px solid #4A607A;
+                box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #0D1C41;
+            }
+        }
+        
     }
 }
