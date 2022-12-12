@@ -794,6 +794,10 @@ form button{
                 text-align: center;
                 text-transform: uppercase;
                 color: #0D1C41;
+                &:hover {
+                    background-color: salmon;
+                    color: black;
+                }
             }
         }
         
