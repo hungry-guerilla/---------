@@ -660,12 +660,16 @@ form {
     left: 50%;
     top: 0%;
     transform: translate(-50%,-50%);
-    color:salmon;
+    color:rgb(138, 122, 83);
     background: #fff;
-    font-size: 26px;
+    font-size: 36px;
     padding: 20px;
     border-radius: 50%;
-    box-shadow: 0 0 10px salmon;
+    box-shadow: 0 0 10px rgb(138, 122, 83);
+    &:hover {
+        font-size: 66px;
+        box-shadow: 0 0 50px rgb(138, 122, 83);
+    }
 }
 
 .input-group{
