@@ -880,19 +880,17 @@ hr {
     top: 70%;
 }
 .footer__copyright {
-    position: absolute;
-    top: 88%;
-    padding-left: 288px;
+    margin-top: 360px;
+    position: relative;
+    
     .footer__copyright-text {
+        position: absolute;
         font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-    
-        /* text/grey */
-    
         color: #9C9C9C;
     }
 }
